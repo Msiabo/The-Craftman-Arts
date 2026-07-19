@@ -65,6 +65,9 @@ import stand from "./stand.jpg";
 import sbu from "./sbu.jpg";
 import sbu2 from "./sbu2.jpg";
 
+import ntsizwa from "./ntsizwa.jpg";
+import themba from "./themba.jpg";
+
 const assets = {
   logo,
   heroImage,
@@ -132,6 +135,9 @@ const assets = {
 
   sbu,
   sbu2,
+
+  ntsizwa,
+  themba,
 };
 
 export default assets;
