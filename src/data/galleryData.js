@@ -146,14 +146,14 @@ const galleryData = [
 
   {
     id: 19,
-    title: "Boardroom Table",
+    title: "Modern Coffee Table",
     category: "Tables",
     image: assets.table2,
   },
 
   {
     id: 20,
-    title: "Conference Table",
+    title: "Study Desks",
     category: "Tables",
     image: assets.tables,
   },
@@ -312,21 +312,21 @@ const galleryData = [
 
   {
     id: 41,
-    title: "Office Storage",
+    title: "Modern White Pedestal",
     category: "Carpentry",
     image: assets.pedestals2,
   },
 
   {
     id: 42,
-    title: "Wood Cabinet",
-    category: "Carpentry",
+    title: "Modern Blue Sofa",
+    category: "Upholstery",
     image: assets.pedestals3,
   },
 
   {
     id: 43,
-    title: "Luxury Cabinet",
+    title: "Luxury Pedestal",
     category: "Carpentry",
     image: assets.pedestals4,
   },
