@@ -1,0 +1,4 @@
+export const filterProjects = (projects, category) => {
+  if (category === "All") return projects;
+  return projects.filter((project) => project.category === category);
+};
