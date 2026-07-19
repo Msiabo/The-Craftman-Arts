@@ -140,9 +140,9 @@ const OurTeam = () => {
 
               <div className="relative lg:w-2/5">
 
-                {/* Image Container */}
+                <div className="relative h-[420px] overflow-hidden bg-stone-900 sm:h-[520px] lg:h-full lg:min-h-[720px]">
 
-                <div className="relative h-[450px] overflow-hidden bg-stone-900 sm:h-[520px] lg:h-full lg:min-h-[720px]">
+                  {/* Image */}
 
                   <img
                     src={member.image}
@@ -162,61 +162,61 @@ const OurTeam = () => {
       "
                   />
 
-                  {/* Dark Overlay */}
+                  {/* Overlays */}
 
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-black/10" />
 
-                  {/* Gold Glow */}
-
                   <div className="absolute inset-0 bg-gradient-to-br from-amber-500/10 via-transparent to-transparent" />
 
-                  {/* Founder Badge */}
+                  {/* Founder */}
 
                   {member.role.includes("Founder") && (
-                    <div className="absolute left-6 top-6">
-                      <div className="rounded-full bg-amber-500 px-5 py-2 shadow-2xl">
-                        <span className="text-sm font-bold uppercase tracking-widest text-black">
+                    <div className="absolute left-4 top-4 sm:left-6 sm:top-6">
+
+                      <div className="rounded-full bg-amber-500 px-4 py-2 shadow-xl sm:px-5">
+
+                        <span className="text-[10px] font-bold uppercase tracking-[0.25em] text-black sm:text-xs">
                           Founder
                         </span>
+
                       </div>
+
                     </div>
                   )}
 
-                  {/* Experience Card */}
+                  {/* Floating Stats */}
 
-                  <div className="absolute left-6 bottom-36">
+                  <div className="absolute left-4 right-4 top-4 flex justify-between sm:left-6 sm:right-6 sm:top-6">
 
-                    <div className="rounded-2xl border border-white/20 bg-white/10 px-5 py-4 backdrop-blur-xl shadow-2xl">
+                    {/* Experience */}
+
+                    <div className="rounded-2xl border border-white/20 bg-white/10 px-3 py-3 backdrop-blur-xl shadow-2xl sm:px-5 sm:py-4">
 
                       <div className="flex items-center gap-2">
 
-                        <FaAward className="text-amber-400" />
+                        <FaAward className="text-sm text-amber-400 sm:text-base" />
 
-                        <span className="text-xs uppercase tracking-[0.25em] text-white/80">
+                        <span className="hidden text-[10px] uppercase tracking-[0.25em] text-white/80 sm:block">
                           Experience
                         </span>
 
                       </div>
 
-                      <h3 className="mt-2 text-3xl font-black text-white">
+                      <h3 className="mt-1 text-lg font-black text-white sm:mt-2 sm:text-3xl">
                         {member.experience}
                       </h3>
 
                     </div>
 
-                  </div>
+                    {/* Projects */}
 
-                  {/* Projects Card */}
+                    <div className="rounded-2xl bg-amber-500 px-3 py-3 shadow-2xl sm:px-5 sm:py-4">
 
-                  <div className="absolute right-6 bottom-36">
-
-                    <div className="rounded-2xl bg-amber-500 px-6 py-4 shadow-2xl">
-
-                      <p className="text-xs font-bold uppercase tracking-[0.25em] text-black">
+                      <p className="hidden text-[10px] font-bold uppercase tracking-[0.25em] text-black sm:block">
                         Projects
                       </p>
 
-                      <h3 className="mt-2 text-3xl font-black text-black">
+                      <h3 className="text-lg font-black text-black sm:mt-2 sm:text-3xl">
                         {member.projects}
                       </h3>
 
@@ -224,21 +224,21 @@ const OurTeam = () => {
 
                   </div>
 
-                  {/* Bottom Name Card */}
+                  {/* Bottom Name */}
 
                   <div className="absolute inset-x-0 bottom-0">
 
-                    <div className="bg-gradient-to-t from-black via-black/90 to-transparent px-8 pb-10 pt-24">
+                    <div className="bg-gradient-to-t from-black via-black/90 to-transparent px-5 pb-6 pt-20 sm:px-8 sm:pb-10 sm:pt-24">
 
-                      <h3 className="text-4xl font-bold text-white">
+                      <h3 className="text-2xl font-bold text-white sm:text-4xl">
                         {member.name}
                       </h3>
 
-                      <p className="mt-2 text-lg font-medium text-amber-300">
+                      <p className="mt-2 text-sm font-medium text-amber-300 sm:text-lg">
                         {member.role}
                       </p>
 
-                      <div className="mt-5 h-1 w-24 rounded-full bg-amber-500"></div>
+                      <div className="mt-4 h-1 w-16 rounded-full bg-amber-500 sm:mt-5 sm:w-24"></div>
 
                     </div>
 
