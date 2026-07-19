@@ -7,7 +7,7 @@ import GalleryHero from "../components/GalleryHero";
 import CategoryFilter from "../components/CategoryFilter";
 import GalleryGrid from "../components/GalleryGrid";
 import GalleryCTA from "../components/GalleryCTA";
-import Lightbox from "../components/Lightbox";
+import Lightbox from "../components/LightBox";
 
 const Gallery = () => {
   const [activeCategory, setActiveCategory] = useState("All");

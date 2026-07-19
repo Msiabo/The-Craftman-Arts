@@ -10,7 +10,7 @@ import galleryData from "../data/galleryData";
 import categories from "../data/categories";
 
 import ProjectCard from "./ProjectCard";
-import Lightbox from "./Lightbox";
+import Lightbox from "./LightBox";
 
 const RecentWork = () => {
   const [activeCategory, setActiveCategory] = useState("All");
