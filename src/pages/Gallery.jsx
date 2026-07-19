@@ -35,7 +35,7 @@ const Gallery = () => {
           <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
             <div className="max-w-3xl">
               <span className="inline-flex rounded-full bg-amber-100 px-5 py-2 text-sm font-bold uppercase tracking-[0.25em] text-amber-700">
-                Our Portfolio
+                Our Work
               </span>
 
               <h2 className="mt-6 text-4xl font-bold text-stone-900 md:text-5xl">
