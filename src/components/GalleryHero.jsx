@@ -8,7 +8,7 @@ const GalleryHero = () => {
 
       <div className="relative mx-auto max-w-7xl px-6 text-center">
         <p className="text-sm font-bold uppercase tracking-[0.35em] text-amber-400">
-          Our Portfolio
+          Our Work
         </p>
 
         <h1 className="mt-5 text-5xl font-bold leading-tight text-white md:text-7xl">
