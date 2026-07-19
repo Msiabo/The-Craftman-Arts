@@ -36,13 +36,13 @@ const OurTeam = () => {
       name: "Ntsizwa",
       role: "Apprentice Carpenter",
       image: assets.ntsizwa,
-      experience: "8+ Years",
-      projects: "500+ Projects",
+      experience: "1+ Year",
+      projects: "40+ Projects",
       email: "ntsizwa@woodcraft.co.za",
       phone: "+27 73 111 2233",
       location: "Pretoria",
       description:
-        "Naledi transforms ideas into elegant, functional spaces that perfectly balance style and practicality. Her passion lies in creating interiors tailored to every client's lifestyle.",
+        "Ntsizwa transforms ideas into elegant, functional spaces that perfectly balance style and practicality. Her passion lies in creating interiors tailored to every client's lifestyle.",
       quote:
         "Beautiful spaces begin with thoughtful planning and timeless design.",
       skills: [
@@ -57,8 +57,8 @@ const OurTeam = () => {
       name: "Themba Masilela",
       role: "Apprentice Carpenter",
       image: assets.themba,
-      experience: "10+ Years",
-      projects: "100+ Projects",
+      experience: "2+ Years",
+      projects: "50+ Projects",
       email: "themba@woodcraft.co.za",
       phone: "+27 71 456 8899",
       location: "Mbombela, Mpumalanga",
